@@ -1,1 +1,17 @@
 name: cidy-test
+docker:
+  registry: ''
+git:
+  repository: git@github.com:machellerogden/test-app.git
+dev:
+  mktemp:
+    prefix: 'test-dev'
+stage:
+  mktemp:
+    prefix: 'test-stage'
+dark:
+  mktemp:
+    prefix: 'test-dark'
+prod:
+  mktemp:
+    prefix: 'test-prod'
