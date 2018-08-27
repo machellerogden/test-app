@@ -1,5 +1,4 @@
 name: cidy-test
-skip-clone: HEAD
 docker:
   registry: ''
 git:
